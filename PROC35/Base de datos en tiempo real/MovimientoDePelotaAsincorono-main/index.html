@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+<script>
+   const firebaseConfig = { //Configura Firebase de la aplicación web
+      apiKey: "AIzaSyDp6is5bv4OSTnExS8KNbrHhVL1umR3Ans",
+      authDomain: "juego-de-carreras-multij-16e34.firebaseapp.com",
+      databaseURL: "https://juego-de-carreras-multij-16e34-default-rtdb.firebaseio.com",
+      projectId: "juego-de-carreras-multij-16e34",
+      storageBucket: "juego-de-carreras-multij-16e34.appspot.com",
+      messagingSenderId: "20632588317",
+      appId: "1:20632588317:web:97c671c972d7bc015eb6f4"
+    };
+  firebase.initializeApp(firebaseConfig); // Inicializa Firebase
+</script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+  </body>
+</html>
